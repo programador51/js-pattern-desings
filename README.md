@@ -6,6 +6,7 @@ Tratan con las instancias de nuevos objetos
     * [Singleton](#singleton)
     * [Constructor](#constructor)
     * [Modulos](#modules)
+    * [Modulos revelador](#reveal_modules)
 * Estructurales
 * Comportamiento
 
@@ -53,3 +54,9 @@ Los módulos son una pieza integral de la arquitectura de cualquier aplicación 
 * AMD modules
 * CommonJS modules
 * ECMAScript Harmony modules
+
+<span id="reveal_modules"></span>
+
+### Modulo revelador ([Referencia](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript))
+
+El patrón de módulo se definió originalmente como una forma de proporcionar encapsulación pública y privada para clases de ingeniería de software convencional.
