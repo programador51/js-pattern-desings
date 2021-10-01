@@ -4,18 +4,23 @@ class MyClass{
 
     // A constructor method
     constructor(myValue){
-        // Propertys and methods for THIS class on particular
+        // Propertys for THIS class on particular
         this.property = myValue;
-        this.method = () => {
-            console.log('Hello world, my value is:',this.property);
-        }
+    }
+
+    method(){
+        console.log('Hello world, my value is:',this.property);
     }
 }
 
 // Instance of the class
 const myInstance = new MyClass(1);
+const myInstance2 = new MyClass(2);
 
-// Acces to the propertys and methods :)
+/**
+ * As you can see, instances have their own propertys, but their share the
+ * same method OF THE CLASS, if one object updated the method, will be
+ * applied for all objects too. (Reference value)
+ */
 console.log(myInstance);
-
-myInstance.method();
+console.log(myInstance2);

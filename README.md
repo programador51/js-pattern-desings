@@ -1,10 +1,10 @@
 # Patrones de diseño
 
 ## Tipos
-* Creacionales
+* [Creacionales](#creational)
 Tratan con las instancias de nuevos objetos
     * Singleton
-    * Constructor
+    * [Constructor](#constructor)
 * Estructurales
 * Comportamiento
 
@@ -31,4 +31,10 @@ Podemos usarlo para leer configuraciones, cargar pool de conexiones a la base de
 2. Oculta el constructor de la clase estableciendo su visibilidad como privada, esto nos asegura que la clase no pueda ser instanciada fuera de ella. private Singleton.
 4. Define un método estático para retornar la instancia única de la clase, al ser estático podemos acceder fácilmente a través del nombre de la clase y el nombre del método Singleton.getInstance().
 
+<span id="creational"></span>
+<span id="constructor"></span>
+
 ### Constructor
+* **Sin prototipos**: Cuando se hace la instancia , cada objeto tiene sus propiedades, pero también se hace una copia de los métodos.
+
+* **Con prototipos**: Cuando se hace la instancia, cada objeto tiene sus propiedades, PERO comparten el método de la clase.
