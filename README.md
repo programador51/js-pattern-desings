@@ -7,6 +7,7 @@ Tratan con las instancias de nuevos objetos
     * [Constructor](#constructor)
     * [Modulos](#modules)
     * [Modulos revelador](#reveal_modules)
+* [Funcionales](#functional)
 * Estructurales
 * Comportamiento
 
@@ -60,3 +61,14 @@ Los módulos son una pieza integral de la arquitectura de cualquier aplicación 
 ### Modulo revelador ([Referencia](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript))
 
 El patrón de módulo se definió originalmente como una forma de proporcionar encapsulación pública y privada para clases de ingeniería de software convencional.
+
+---
+
+<span id="functional"></span>
+
+## [Patron de diseño funcional](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming)
+Se caracteriza por una cosa: la ausencia de efectos secundarios. No depende de datos fuera de la función actual y no cambia los datos que existen fuera de la función actual. Cualquier otra cosa "funcional" puede derivarse de esta propiedad.
+Se basa en brindar un ***Input*** (datos) que seran operados por la funcion de tal forma que regresa un ***Output*** (resultado) con la informacion operada
+
+### [Clousures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+Una clausura o closure es una función que guarda referencias del estado adyacente (ámbito léxico). En otras palabras, una clausura permite acceder al ámbito de una función exterior desde una función interior.
