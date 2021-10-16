@@ -72,3 +72,8 @@ Se basa en brindar un ***Input*** (datos) que seran operados por la funcion de t
 
 ### [Clousures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 Una clausura o closure es una función que guarda referencias del estado adyacente (ámbito léxico). En otras palabras, una clausura permite acceder al ámbito de una función exterior desde una función interior.
+
+### [Currying](https://dev.to/jazsmith24/currying-in-javascript-10fi)
+Currying es el proceso en el que una función toma varios argumentos uno a la vez. Curry traduce una función de invocable como `f (a, b, c)` a invocable como `f (a) (b) (c)`. Una función curry devuelve una nueva función que espera el siguiente argumento en línea.
+
+El curry le permite tener funciones de apariencia liviana y limpia. También le permite componer la secuencia de sus funciones. Asegura que la secuencia particular de llamadas se cumpla y se siga. La salida final solo se devuelve cuando se han pasado todas las dependencias. Los argumentos se mantienen "vivos" con cierres y todos se utilizan en la ejecución cuando se devuelve y ejecuta la función final en la cadena de procesamiento.
