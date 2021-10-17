@@ -77,3 +77,13 @@ Una clausura o closure es una función que guarda referencias del estado adyacen
 Currying es el proceso en el que una función toma varios argumentos uno a la vez. Curry traduce una función de invocable como `f (a, b, c)` a invocable como `f (a) (b) (c)`. Una función curry devuelve una nueva función que espera el siguiente argumento en línea.
 
 El curry le permite tener funciones de apariencia liviana y limpia. También le permite componer la secuencia de sus funciones. Asegura que la secuencia particular de llamadas se cumpla y se siga. La salida final solo se devuelve cuando se han pasado todas las dependencias. Los argumentos se mantienen "vivos" con cierres y todos se utilizan en la ejecución cuando se devuelve y ejecuta la función final en la cadena de procesamiento.
+
+### [Composition](https://medium.com/dailyjs/functional-js-6-function-composition-b7042c2ccffa)
+La composición de funciones se basa en el uso de curry monádico (unario) y preferiblemente funciones puras.
+
+Es un uso bastante simple de múltiples funciones donde cada función recibe entrada y entrega su salida a la siguiente función
+
+### [Arrow function (lambda - λ)](https://medium.com/front-end-weekly/6-fundamental-terms-in-functional-javascript-e25d50d40b2c)
+El término lambda se origina en el cálculo lambda, un sistema formal de lógica matemática. El cálculo lambda es, por supuesto, Turing completo y, como tal, representa un modelo universal de computación capaz de construir cualquier máquina de Turing.
+
+Las expresiones lambda son la piedra angular de la programación funcional
