@@ -55,4 +55,9 @@ const plusTwo = a => a + 2;
  */
 const composePlusThree = myNumber => plusTwo(plusOneCompo(myNumber));
 
+/**
+ * This IS composition, of course, doesn't seem very readable
+ * thats why it's almost sure people create a "composition"
+ * function to avoid this mess up
+ */
 console.log(composePlusThree(10)); // 13
