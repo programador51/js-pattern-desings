@@ -104,3 +104,17 @@ const higherOrder = whoStrikesBack => whoStrikesBack ();
 ```javascript
 const firstOrder = () => console.log ('First order strikes back!');
 ```
+
+#### [Point free style](https://medium.com/dailyjs/functional-js-7-point-free-style-b21a1416ac6a)
+De forma breve, es utilizar funciones en el codigo, sin la necesidad de nombrar/indicar el nombre de los argumentos o valores intermedios del codigo. En algunos lenguajes es necesario indicar el nombre de estos argumentos y variables (valores intermedios) dentro del bloque de codigo, al menos en JS no es necesario.
+
+**Pros**
+
+1. No es necesario pensar en el nombre de variables
+2. Nos evita englobar funciones dentro de otras funciones para su ejecucion
+3. Codigo mucho mas limpio
+
+**Contras**
+
+1. Al no especificar los nombres de argumentos, es posible "olvidar" los parametros y valores que necesita y retorna una funcion.
+
